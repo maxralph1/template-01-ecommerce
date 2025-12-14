@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Funnel+Display:wght@300..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-olive: #798c3d;
+    --color-sand: #efece0;
+    --color-gold: #c69c4a;
+    --color-ivory: #fffdf5;
+}
+
+body {
+    font-family: 'Funnel Display', sans-serif;
+    font-optical-sizing: auto;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+/* ::-webkit-scrollbar {
+    width: 50px;
+    height: 25px;
+} */
