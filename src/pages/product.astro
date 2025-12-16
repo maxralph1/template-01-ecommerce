@@ -2,4 +2,140 @@
 import Layout from '../layouts/Layout.astro'
 ---
 
-<Layout></Layout>
+<Layout>
+  <div class='pt-20 px-3 md:px-8'>
+    <nav
+      class='uppercase flex items-center flex-wrap gap-3 max-md:gap-y-1.5 font-light opacity-70'
+    >
+      <a href="/">Home</a> >
+      <a href="/products">Catalog</a> >
+      <a href="/product">Opal Sleeveless Stretch Jersey Polo</a>
+    </nav>
+
+    <div
+      class='pt-7 flex flex-col-reverse items-center md:flex-row gap-10 md:gap-24 lg:gap-40'
+    >
+      <section class='flex-1'>
+        <h2 class='uppercase text-2xl'>Opal Sleeveless Stretch Jersey Polo</h2>
+        <p class='uppercase opacity-60'>Women's Crown Sport by Peter Millar</p>
+        <p class='font-bold text-xl pt-1'>$135</p>
+        <div class='pt-1 flex flex-col gap-y-3'>
+          <p>
+            An elegant spin on our classic golf polo. This shirt is designed
+            with our signature four-way-stretch, wicking performance jersey
+            fabric. It features a unique scalloped collar and cuff for a
+            feminine, stylish aesthetic. Finished with a three-button placket
+            and curved hem.
+          </p>
+          <p>Model is 5'10", wearing a size is X-Small</p>
+        </div>
+        <section class='pt-7.5'>
+          <section class=''>
+            <p class='font-semibold'>
+              <span>Color</span>
+              <span class='uppercase'>White</span>
+            </p>
+            <div class='flex items-center gap-1 pt-3.5'>
+              <span class='bg-white border border-black p-4 rounded-full'
+              ></span>
+              <span class='bg-olive border border-black p-3 rounded-full'
+              ></span>
+              <span class='bg-sand border border-black p-3 rounded-full'></span>
+              <span class='bg-amber-700 border border-black p-3 rounded-full'
+              ></span>
+            </div>
+          </section>
+          <section class='pt-3.5'>
+            <p class='font-semibold'>
+              <span class='uppercase'>Size</span>
+            </p>
+            <div class='flex items-center gap-1 pt-3.5 text-center'>
+              <span class='py-1.5 px-2.5 border border-gray-500 w-14'>XXL</span>
+              <span class='py-1.5 px-2.5 border border-gray-500 w-14'>XL</span>
+              <span class='py-1.5 px-2.5 border border-gray-500 w-14'>L</span>
+              <span class='py-1.5 px-2.5 border border-gray-500 w-14'>M</span>
+            </div>
+          </section>
+        </section>
+        <section class='flex items-center pt-6'>
+          <div class='flex-1 flex justify-around text-xl'>
+            <span>-</span>
+            <span class='font-bold'>1</span>
+            <span>+</span>
+          </div>
+          <div
+            class='flex-1 uppercase bg-black text-ivory text-center rounded-full px-10 py-1.5'
+          >
+            Add to Cart
+          </div>
+        </section>
+      </section>
+
+      <section class='flex-1 flex flex-col justify-between'>
+        <picture>
+          <img
+            src='/golfer-home.jpg'
+            alt=''
+            class='object-cover h-full w-full'
+          />
+        </picture>
+        <section
+          class='w-[45%] self-end pt-5 pb-2 snap-x snap-mandatory flex gap-4 overflow-x-auto'
+        >
+          <article
+            class='snap-center snap-always h-14 w-14 shrink-0 flex flex-col'
+          >
+            <img
+              src='/golfer-home.jpg'
+              alt=''
+              class='h-full w-full object-cover'
+            />
+          </article>
+          <article
+            class='snap-center snap-always h-14 w-14 shrink-0 flex flex-col'
+          >
+            <img
+              src='/golfer-home.jpg'
+              alt=''
+              class='h-full w-full object-cover'
+            />
+          </article>
+          <article
+            class='snap-center snap-always h-14 w-14 shrink-0 flex flex-col'
+          >
+            <img
+              src='/golfer-home.jpg'
+              alt=''
+              class='h-full w-full object-cover'
+            />
+          </article>
+          <article
+            class='snap-center snap-always h-14 w-14 shrink-0 flex flex-col'
+          >
+            <img
+              src='/golfer-home.jpg'
+              alt=''
+              class='h-full w-full object-cover'
+            />
+          </article>
+        </section>
+      </section>
+    </div>
+
+    <section class='pt-12 md:pt-20'>
+    <div class='flex items-center gap-4 overflow-x-auto pb-2'>
+        <h3 class='uppercase border-b border-b-gold shrink-0'>Description</h3>
+        <h3 class='uppercase border-b border-b-sand shrink-0'>Specs</h3>
+        <h3 class='uppercase border-b border-b-sand shrink-0'>Reviews</h3>
+    </div>
+    <div class='flex flex-col gap-y-3 pt-1 md:w-1/2'>
+        <p>TaylorMade Q13</p>
+        <p>2014 TaylorMade Q10 Men's Golf Club Set</p>
+        <p>
+            The TaylorMade Q10 men's golf club set is a complete, cutting-edge, premium golf club set packed with proven, cutting-edge technologies that deliver a smooth, consistent, ball contact, long distance, and maximum forgiveness on loose shots!
+        </p>
+        <p>The Q10 line is engineered with the highest quality components and proven technologies from TaylorMade!</p>
+    </div>
+    </section>
+  </div>
+</Layout>
